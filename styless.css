@@ -1,0 +1,20 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(221, 66, 66);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: calc(50vh - 75px);
+
+    transition: background-color 2s ease-in-out, width 4s, transform 3.5s ease-in-out;
+}
+.box:hover {
+    width: 300px;
+    background-color: rgb(96, 153, 170);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    transform: rotate(45deg) translate(10px, 10px);
+}
+body {
+    background-color: #f6f6f6;
+}
